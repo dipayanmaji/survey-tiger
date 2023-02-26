@@ -1,0 +1,21 @@
+.question{
+    margin-top: 50px;
+    width: 400px;
+    height: 35px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    text-align: center;
+}
+.question label{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.question input{
+    padding-left: 5px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+}

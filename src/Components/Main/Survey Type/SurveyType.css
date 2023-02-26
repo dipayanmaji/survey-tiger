@@ -1,0 +1,26 @@
+.survey-type{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.survey-type-button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(121, 0, 0);
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.survey-type-button:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 2px 5px black;
+}
+.survey-type-button:active{
+    transform: scale(1);
+    box-shadow: none;
+}

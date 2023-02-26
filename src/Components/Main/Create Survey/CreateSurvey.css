@@ -1,0 +1,16 @@
+.create-survey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#create-survey-select{
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+    padding-left: 10px;
+    outline: none;
+}
+
