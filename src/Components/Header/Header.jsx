@@ -3,8 +3,7 @@ const Header = ()=>{
     return(
         <div className={"header"}>
             <h1>
-                {/* <i class="fa-solid fa-paw"></i>  */}
-                Survey Tiger</h1>
+                <i className="fa-solid fa-paw"></i> Survey Tiger</h1>
         </div>
     )
 }
