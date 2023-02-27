@@ -1,11 +1,11 @@
-.add-question-button-div{
+.confirm-button-div{
     width: 400px;
     display: flex;
     justify-content: right;
 }
-.add-question{
+.confirm{
     /* position: absolute;
-    left: 635px; */
+    left: 765px; */
     margin-top: 1rem;
     height: 30px;
     width: 120px;
@@ -17,11 +17,11 @@
     font-size: 12px;
     cursor: pointer;
 }
-.add-question:hover{
+.confirm:hover{
     transform: scale(1.03);
     box-shadow: 2px 2px 5px black;
 }
-.add-question:active{
+.confirm:active{
     transform: scale(1);
     box-shadow: none;
 }

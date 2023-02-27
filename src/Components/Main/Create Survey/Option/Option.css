@@ -17,6 +17,7 @@
 .option section{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
 }
 .option-button{
     color: red;
@@ -25,9 +26,13 @@
     border-radius: 5px;
     cursor: pointer;
     background-color: rgb(243, 243, 243);
+    outline: none;
 }
 .option-button:hover{
     background-color: rgb(221, 221, 221);
+}
+.option-button:focus{
+    outline: 1px solid blue;
 }
 .option-button:active{
     background-color: rgb(243, 243, 243);

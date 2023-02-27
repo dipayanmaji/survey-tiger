@@ -52,7 +52,9 @@ const MultiSelect = (props)=>{
             {options.map((option)=>(
                 option
             ))}
-            {options.length >= 4 ?<button className="add-question" onClick={buttonClicked}>Add Question</button>: ""}
+            <div className="add-question-button-div">
+                {options.length >= 4 ?<button className="add-question" onClick={buttonClicked}>Add Question</button>: ""}
+            </div>
         </div>
     );
 }

@@ -1,0 +1,17 @@
+.display-questions-options{
+    width: 400px;
+    list-style-type: none;
+}
+.display-question{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.radioOptions{
+    display: flex;
+}
+.radioOptions label{
+    margin-right: 100px;
+}
+ul{
+    list-style-type: none;
+}

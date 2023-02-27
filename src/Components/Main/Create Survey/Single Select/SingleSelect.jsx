@@ -25,7 +25,9 @@ const SingleSelect = (props)=>{
             <Question state={state} setState={setState} />
             <h4>Options</h4>
             <Option questionType={"singleSelect"} />
-            <button className="add-question" onClick={buttonClicked}>Add Question</button>
+            <div className="add-question-button-div">
+                <button className="add-question" onClick={buttonClicked}>Add Question</button>
+            </div>
         </div>
     );
 }

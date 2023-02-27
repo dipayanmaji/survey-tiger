@@ -1,0 +1,47 @@
+.submit-button-div{
+    width: 400px;
+    display: flex;
+    justify-content: right;
+}
+.submit, .go-to-home{
+    /* position: absolute;
+    left: 635px; */
+    margin-top: 1rem;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(121, 0, 0);
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+    cursor: pointer;
+}
+.submit:hover, .go-to-home:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 2px 5px black;
+}
+.submit:active, .go-to-home:active{
+    transform: scale(1);
+    box-shadow: none;
+}
+.greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    background-color: rgba(3, 3, 3, 0.479);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.greeting h1{
+    color: darkgreen;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+.display{
+    display: none;
+}

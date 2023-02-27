@@ -1,6 +1,11 @@
+.publish-button-div{
+    width: 400px;
+    display: flex;
+    justify-content: right;
+}
 .publish{
-    position: absolute;
-    left: 62%;
+    /* position: absolute;
+    left: 765px; */
     margin-top: 1rem;
     height: 30px;
     width: 120px;
