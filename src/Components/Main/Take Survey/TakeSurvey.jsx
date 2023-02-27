@@ -18,7 +18,10 @@ const TakeSurvey = (props)=>{
                 <button className="submit" onClick={submitClicked}>Submit</button>
             </div>
             <div className={`greeting ${classname}`}>
-                <h1>Thanks for Take a Survey!<br/>Have a nice day! <i class="fa-solid fa-face-laugh-beam"></i></h1>
+                <h1>Thanks for Take a Survey!
+                    <br/>Have a nice day! 
+                    {/* <i class="fa-solid fa-face-laugh-beam"></i> */}
+                    </h1>
                 <button className="go-to-home" onClick={goToHomeClicked}>Go To Home</button>
             </div>
         </div>
